@@ -1,16 +1,41 @@
-# profile_app
+# Profile_App
 
-A new Flutter project.
+Mobile Application for both Android & IOS.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this app on your local machine, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+- Ensure that you have Flutter installed on your machine. If not, follow the Flutter installation guide: [Flutter Installation](https://docs.flutter.dev/get-started/install)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Clone this repository or download the source code as a ZIP file.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Open the project in your preferred integrated development environment (IDE) such as Visual Studio Code or Android Studio.
+
+- Install the necessary dependencies by running the following command in your terminal:
+
+    flutter pub get
+
+- Connect a physical device or start an emulator/simulator.
+
+- Run the app using the following command:
+
+    flutter run
+
+This will build and run the app on the connected device/emulator.
+
+## App Features
+
+- Firstly, you will see user profiles that are already stored in the firebase.
+- Then, you can click on plus icon on the bottom right of the screen, then an dialog will pop for entering profile details & profile photo as well then you can choose photo from gallery and fill all the detais in the textField.
+- After that you will see two buttons in the bottom of dialog i.e. Save and Cancel, if you tap on save then data will get stored in firebase & you will see updated list of profiles in the user profile while if you tap on cancel no data will be saved & you will navigate back to user profiles.
+
+  Enjoy!🤩
+
+## Screenshots
+
+- ScreenShot of an App
+  
+<img width="339" alt="User Profile List" src="https://github.com/Yukti-Agarwal88/Profile-App/assets/84984749/b5af5b9b-3ae8-4010-9aba-5c5803f9ca8d">
+
+<img width="339" alt="User-Data Dialog" src="https://github.com/Yukti-Agarwal88/Profile-App/assets/84984749/7904bc05-557f-498f-90df-727827510456">
